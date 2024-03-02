@@ -146,7 +146,7 @@ class _ThirdState extends State<Third> {
                         children: [
                           TextButton(
                             onPressed: (){
-                              Navigator.of(context).push(MaterialPageRoute(builder: (context) => Third()));
+
                             },
                             child: Text('See all',
                               style: TextStyle(color: Color(0xff6941C6), fontSize: 16),
@@ -186,13 +186,13 @@ class _ThirdState extends State<Third> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text('Cycle Phases and Period',
-                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                       ),
                       Row(
                         children: [
                           TextButton(
                             onPressed: (){
-                              Navigator.of(context).push(MaterialPageRoute(builder: (context) => Third()));
+
                             },
                             child: Text('See all',
                               style: TextStyle(color: Color(0xff6941C6), fontSize: 16),
